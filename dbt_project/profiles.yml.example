@@ -1,0 +1,9 @@
+# Copie para ~/.dbt/profiles.yml (ou defina DBT_PROFILES_DIR) antes de rodar `dbt build`.
+
+medallion_air_quality:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "medallion.duckdb"
+      threads: 4
