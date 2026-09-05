@@ -1,0 +1,18 @@
+# dados do lake (gerados em runtime, não versionados)
+data/raw/*.json
+bronze/**/*.parquet
+silver/**/*.parquet
+gold/**/*.parquet
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+dbt_project/profiles.yml
+dbt_project/*.duckdb
+dbt_project/.user.yml
+
+# python
+__pycache__/
+*.pyc
+.venv/
