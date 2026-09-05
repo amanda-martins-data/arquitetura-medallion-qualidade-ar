@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: silver
+    schema: main
+    tables:
+      - name: air_quality
+        description: >
+          Camada Silver: medições de qualidade do ar já limpas,
+          tipadas e deduplicadas, particionadas por measured_date.
+          Lida diretamente dos arquivos Parquet — não é uma tabela
+          carregada no warehouse, é uma view sobre o próprio lake.
+        meta:
+          external_location: "read_parquet('../silver/air_quality/**/*.parquet', hive_partitioning = true)"
