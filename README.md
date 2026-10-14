@@ -1,5 +1,7 @@
 # Arquitetura Medallion — Qualidade do Ar
 
+[![CI](https://github.com/amanda-martins-data/arquitetura-medallion-qualidade-ar/actions/workflows/ci.yml/badge.svg)](https://github.com/amanda-martins-data/arquitetura-medallion-qualidade-ar/actions/workflows/ci.yml)
+
 Evolui o pipeline do [Projeto 01](https://github.com/amanda-martins-data/pipeline-qualidade-ar)
 para uma arquitetura de data lake em três camadas (**Bronze → Silver →
 Gold**), com dbt operando diretamente sobre arquivos Parquet e uma
