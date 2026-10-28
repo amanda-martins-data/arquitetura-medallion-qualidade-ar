@@ -8,9 +8,8 @@ Gold**), com dbt operando diretamente sobre arquivos Parquet e uma
 classificação de **Índice de Qualidade do Ar (AQI)** aplicada na
 camada Gold.
 
-Projeto 03 de uma série de 6 documentando minha transição de Analista
-de Dados para Engenharia/Arquitetura de Dados — veja o [perfil
-completo](https://github.com/amanda-martins-data).
+Projeto 03 do meu portfólio de Engenharia e Arquitetura de Dados — veja o
+[perfil completo](https://github.com/amanda-martins-data).
 
 ## Arquitetura
 
